@@ -2,4 +2,17 @@ var TermUI = require("../../app.js");
 
 var termui = new TermUI();
 
-termui.wiffle();
+console.log(termui.bar([
+	{
+		value: 20,
+		title: "cats"
+	},
+	{
+		value: 50,
+		title: "dogs"
+	},
+	{
+		value: 30,
+		title: "other"
+	}
+]));
